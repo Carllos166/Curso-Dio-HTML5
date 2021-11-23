@@ -1,7 +1,8 @@
 body {
     background: #f7f7f7;
     font-family: verdana;
-    width: 900px;
+    max-width: 900px;
+    margin: auto;
 }
 .photo {
     border: 1.5px solid pink;
@@ -22,11 +23,20 @@ a {
     color: #505050;
 }
 
+a:hover {
+    color:rgb(243, 135, 207);
+}
+
+
 .post_title {
     font-size: 16px;
     font-style: italic;
     margin: 0;
     margin-bottom: 50px;
+}
+
+.post_image {
+    max-width: 900px;
 }
 
 .post {
@@ -41,10 +51,12 @@ a {
     margin : 0;
     margin-bottom: 15px; 
     text-transform: capitalize;
+    text-align: justify;
 }
 
 .post_image {
 margin-bottom: 30px;
+width: 100%;
 }
 
 .contacts_list {
